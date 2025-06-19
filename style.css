@@ -34,7 +34,7 @@ body {
 .recipe {
     margin: 5rem auto;
     padding: 1.5rem;
-    width: 310px;
+    width: 320px;
     background-color:  hsl(0, 0%, 100%);
     border-radius: 1rem;
 }
