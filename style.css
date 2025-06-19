@@ -1,27 +1,16 @@
 @font-face {
     font-family:'Outfit' ;
     src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-Black.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-Bold.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-ExtraBold.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-ExtraLight.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-Light.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-Light.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-Medium.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-SemiBold.ttf);
-    src: url(/assets/fonts/outfit/static/Outfit-Thin.ttf);
     font-weight: 400, 600, 700;
     font-display: swap;
 
 }
 @font-face {
-    font-family: 'Young Serif' ;
+    font-family: 'Young Serif';
     src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
     font-weight: 400;
     font-display: swap;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Outfit', 'Young Serif';
+    font-family: 'Outfit';
     font-size: 16px;
     font-weight: 400;
     background-color:hsl(30, 54%, 90%);
@@ -50,7 +39,7 @@ body {
     align-items: flex-start;
     justify-content: space-evenly;
     gap: 10px;
-    margin: 10rem auto;
+    margin: 5rem auto;
     padding: 1.5rem;
     width: 350px;
     background-color:  hsl(0, 0%, 100%);
@@ -117,7 +106,7 @@ td {
 td:nth-child(2) {
     color: hsl(14, 45%, 36%);
     font-family: 'Outfit';
-    font-weight: 400;
+    font-weight: 700;
 }
 ol, ul {
     padding-left: 1rem;
@@ -125,4 +114,4 @@ ol, ul {
 }li::marker {
     color: hsl(14, 45%, 36%);
     font-weight: 700;
-    font-size: large;
+}
