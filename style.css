@@ -28,6 +28,8 @@ body {
     background-color:hsl(30, 54%, 90%);
     overflow-y: scroll;
     -webkit-margin-collapse: collapse;
+    width: 100%;
+    height: auto;
     
 }
     
