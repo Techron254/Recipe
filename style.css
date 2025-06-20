@@ -124,5 +124,8 @@ ol, ul {
 
        
     }
+    .card-image {
+        height: 35%
+    }
     
  }
