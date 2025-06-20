@@ -114,7 +114,7 @@ ol, ul {
     color: hsl(14, 45%, 36%);
     font-weight: 700;
 }
- @media only screen and (max width: 480px) {
+ @media only screen and (max-width: 480px) {
     .recipe{
         width: 100vw;|
         border-radius: 0;
