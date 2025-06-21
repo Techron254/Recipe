@@ -45,7 +45,7 @@ body {
 .card-image {
     margin-top: 0;
 }
-.card-image img {
+img {
     width: 100%;
     height: 100%;
     border-radius: 0.7rem;
@@ -120,20 +120,26 @@ ol, ul {
     .recipe {
         width: 100vw;
         height: auto;
-        border-radius: 0;
-        height: auto;
         margin-top: 0;
-        padding: 1rem 2rem;
     }
-    .card-image {
+    img {
         border-radius: 0;
         padding: 0;
         margin: 0;
-        width: 100%;
-    
     }
-    body {
+    body, main {
         background: none;
+        font-size: large;
     }
-    
- }
+    .recipe{
+        padding: 0;
+        margin: 0;
+    }
+    div:not(.recipe, .card-image){
+        margin: 2rem 4rem;
+        padding-bottom: 2rem;
+        padding-top: 0;
+        margin-top: 0;
+        
+    }
+}
