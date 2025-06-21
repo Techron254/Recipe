@@ -136,7 +136,7 @@ ol, ul {
         margin: 0;
     }
     div:not(.recipe, .card-image){
-        margin: 2rem 4rem;
+        margin: 2rem 3rem;
         padding-bottom: 2rem;
         padding-top: 0;
         margin-top: 0;
